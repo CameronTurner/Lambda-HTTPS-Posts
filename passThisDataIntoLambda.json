@@ -2,6 +2,5 @@
   "To": "myemail@myemailserver.com",
   "From": "persontoemail@theiremailserver.com",
   "Subject": "My Email Subject goes here",
-  "HTML": "put your escaped HTML or just normal text here",
-  "deviceFriendlyName": "My Device here"
+  "HTML": "put your escaped HTML or just normal text here"
 }
