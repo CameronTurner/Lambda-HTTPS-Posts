@@ -1,0 +1,6 @@
+{
+  "To": "myemail@myemailserver.com",
+  "From": "persontoemail@theiremailserver.com",
+  "Subject": "My Email Subject goes here",
+  "deviceFriendlyName": "My Device here"
+}
