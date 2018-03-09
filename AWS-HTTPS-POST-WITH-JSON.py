@@ -4,7 +4,7 @@ import os
 import urllib
 from urllib import request, parse
 
-
+# update the xxxxx text with the domain name of your mailgun service (typically: mail.yourdomaingoeshere.com)
 TARGET_URL = "https://api.mailgun.net/v3/XXXXXXXXXXXXXXXXX/messages"
 USER_ID = os.environ.get("ACCOUNT_ID")
 USER_PASS = os.environ.get("ACCOUNT_PASS")
@@ -13,12 +13,8 @@ USER_PASS = os.environ.get("ACCOUNT_PASS")
 def lambda_handler(event, context):
     to_email = event['To']
     from_email = event['From']
-#   email_subject = "Alert: " + str(event['Subject']) 
-    email_subject = "Alert: Message from device: " + str(event['deviceFriendlyName'])
-#   email_html = event['HTML']
-    passed_data_deviceFriendlyName = event['deviceFriendlyName']
-    
-    email_html = "PUT YOUR HTML CONTENT HERE - REMEMBER TO ESCAPE ANY quotation marks with a backslash directly before it - this will stop this text line from ending early. e.g. \""
+    email_subject = "Alert: " + str(event['Subject']) 
+    email_html = event['HTML'] 
     
     if not USER_ID:
         return "Unable to access USER ID."
