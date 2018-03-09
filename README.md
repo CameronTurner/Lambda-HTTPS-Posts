@@ -10,4 +10,4 @@ It allows you to:
 
 Make sure to set your Environmental variables correctly in Lambda:
 
-![Code input settings](/Lambda - Code input settings.PNG)
+![Code input settings](https://raw.githubusercontent.com/CameronTurner/Lambda-HTTPS-Posts/master/Lambda%20-%20Code%20input%20settings.PNG)
