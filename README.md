@@ -6,3 +6,8 @@ It allows you to:
 1. Pass authorisation credentials (user/pass)
 2. Pass data in JSON format to the REST API
 3. Easily combine different parts of information passed in via the 'trigger' that starts the Lambda function into text strings that are passed out in the JSON file to the REST API.
+
+
+Make sure to set your Environmental variables correctly in Lambda:
+
+![Code input settings](/Lambda - Code input settings.PNG)
